@@ -32,6 +32,14 @@
 *.so.*
 *.dylib
 
+# Réautoriser les dossiers parents
+!libraries/
+!libraries/lib/
+
+# Réautoriser uniquement glfw3.dll
+!libraries/lib/glfw3.dll
+!libraries/lib/libglfw3dll.a
+
 # Executables
 *.exe
 *.out
